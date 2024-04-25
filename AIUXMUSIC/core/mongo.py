@@ -14,7 +14,7 @@ if config.MONGO_DB_URI is None:
         "No MONGO DB URL found.. Your Bot will work on Nezuko Database"
     )
     temp_client = Client(
-        "Auput",
+        "AIUXMUSIC",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
@@ -30,5 +30,5 @@ if config.MONGO_DB_URI is None:
 else:
     _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
     _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
-    mongodb = _mongo_async_.Auput
-    pymongodb = _mongo_sync_.Auput
+    mongodb = _mongo_async_.AIUXMUSIC
+    pymongodb = _mongo_sync_.AIUXMUSIC
