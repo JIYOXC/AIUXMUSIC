@@ -32,4 +32,3 @@ gtts
 httpx
 httpx[http2]
 gpytranslate
-pytgcalls==3.0.0dev24
