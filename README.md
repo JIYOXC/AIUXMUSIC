@@ -1,6 +1,6 @@
 #  ˹AIU X MUSIC˼ 
 
-<p align="center"><img src="https://telegra.ph//file/bbdab35972d61a0cae983.jpg" width="300"></a></p>
+<p align="center"><img src="htjtps://telegra.ph//file/bbdab35972d61a0cae983.jpg" width="300"></a></p>
 <p align="center">
 
 *Test Bot ➣ [AIUXMUSIC](https://t.me/AIUXROBOT)*
@@ -30,7 +30,7 @@
 - Install pip by :
 `sudo pip3 install -U pip`
 - Install Node js by :
-`curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
+`curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
 `git clone https://github.com/JIYOXC/AIUXMUSIC && cd AIUXMUSIC`
 - Install requirements by :
