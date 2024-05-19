@@ -27,7 +27,7 @@ unidecode
 yt-dlp
 youtube-search
 youtube-search-python
-yt-dlp
+yt-dlp==2024.4.9
 gtts
 httpx
 httpx[http2]
