@@ -15,9 +15,9 @@ API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "HKR_AIU")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "aiuxrobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -36,11 +36,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "AIUXMUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "2073693007").split())
+    map(int, getenv("OWNER_ID", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
